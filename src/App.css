@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "Lato-Regular";
+  src: local("Lato-Regular"), url("./fonts/Lato-Regular.ttf") format("truetype");
+}
+
 .App {
   text-align: center;
+  font-family: Lato-Regular;
+  height: 100vh;
+  background-image: url("todo.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 15px;
 }
 
 .App-logo {
@@ -26,6 +37,25 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.input-container {
+  display: flex;
+  width: 60%;
+  margin: auto;
+}
+
+.task-container {
+  width: 60%;
+  margin: auto;
+}
+
+.list-item {
+  background-color: azure;
+  margin-top: 10px;
+  margin-right: 5px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
 }
 
 @keyframes App-logo-spin {
