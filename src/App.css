@@ -7,7 +7,7 @@
   text-align: center;
   font-family: Lato-Regular;
   height: 100vh;
-  background-image: url("todo.jpeg");
+  background-image: url("https://miro.medium.com/v2/resize:fit:1400/format:webp/1*1Hh7ldSZ8pKyf9PKLfDZjw.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 15px;
@@ -32,6 +32,10 @@ ul {
   background-color: azure;
   margin-top: 10px;
   margin-right: 5px;
-  border: 1px solid lightgrey;
+  border: 2px solid gray;
   border-radius: 10px;
+}
+
+.list-item:nth-child(odd) {
+  background: lightgray;
 }
